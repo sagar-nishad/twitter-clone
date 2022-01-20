@@ -1,0 +1,61 @@
+.sidebar__tweet {
+  background-color: var(--twitter-blue) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 80px !important;
+  height: 50px !important;
+  margin-top: 15px !important;
+  margin-left: 20px !important;
+}
+
+.sidebar {
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.3;
+  min-width: 250px;
+  max-width: 250px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sidebar__twitterIcon {
+  color: var(--twitter-blue);
+  font-size: 40px !important;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar__userDetailsAvatar {
+  margin-right: 10px;
+}
+
+.sidebar__userDetails {
+    margin-top: 10px !important;
+  padding: 5px !important;
+  padding-left: 10px !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  margin-top: 10px;
+  border-radius: 30px !important;
+}
+.sidebar__userDetails > div {
+  display: flex !important;
+  flex-direction: column !important;
+  /* color: #fff !important; */
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+    /*
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700; */
+}
+.sidebar__userDetailsDisplayName {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  font-weight: 700 !important;
+}
